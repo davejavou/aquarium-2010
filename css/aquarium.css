@@ -1,0 +1,119 @@
+html, body { height: 100%; background: #0d1f68; }
+div#cardredemption { position: absolute; width: 100%; min-height: 100%; font-family:"lucida grande",tahoma,verdana,arial,sans-serif; text-align: center; background: #0d1f68 url(../images/cardredemption/background_horizon.jpg) top center repeat-x; cursor: default; }
+div#cardredemption div#swim_area { position: absolute; width: 100%; height: 100%; overflow: hidden; }
+div#cardredemption div.swim_fish { position: absolute; top: 500px; left: 500px; width: 100px; height: 100px; background-image: url(../images/cardredemption/swim_fish.png); background-repeat: no-repeat; }
+div#cardredemption div.angelfish { background-position: 0 0;}
+div#cardredemption div.azurediscus { background-position: 0 -100px; }
+div#cardredemption div.clownfish { background-position: 0 -200px; }
+div#cardredemption div.mintminnow { background-position: 0 -300px; }
+div#cardredemption div.angelfish.left { background-position: -100px 0;}
+div#cardredemption div.azurediscus.left { background-position: -100px -100px; }
+div#cardredemption div.clownfish.left { background-position: -100px -200px; }
+div#cardredemption div.mintminnow.left { background-position: -100px -300px; }
+div#cardredemption div.sun { position: absolute; top: 0px; left: -25%; width: 678px; height: 166px; background: url(../images/cardredemption/background_sun.png) no-repeat; }
+div#cardredemption div.island { position: absolute; top: 50px; right: 0px; width: 181px; height: 192px; background: url(../images/cardredemption/background_island.png) no-repeat; }
+div#cardredemption div.seabed { position: absolute; bottom: 0px; left: 0px; width: 100%; height: 128px; background: url(../images/cardredemption/background_seabed.png) repeat-x; }
+div#cardredemption div.frame { display: none; position: relative; top: 60px; width: 766px; margin: 0 auto; padding: 60px 0; background: url(../images/cardredemption/frame_middle.png) no-repeat; }
+div#cardredemption div.frame div.frame_top { position: absolute; top: -25px; left: 0px; width: 766px; height: 25px; background: url(../images/cardredemption/frame_top.png) no-repeat; }
+div#cardredemption div.frame div.frame_bottom { position: absolute; bottom: -215px; left: 0px; width: 766px; height: 215px; background: url(../images/cardredemption/frame_bottom.png) no-repeat; }
+div#cardredemption div.frame > div.helpbutton { position: absolute; top: -40px; right: 15px; font-size: 11px; font-weight: 700; color: #0e3489; text-decoration: underline; cursor: pointer; }
+div#cardredemption div.frame > div.helpbutton:hover { color: #000; }
+div#cardredemption div.frame div.connectedstatus { display: none; position: absolute; top: -40px; left: 80px; font-size: 11px; color: #7198b1; }
+div#cardredemption div.frame div.connectedstatus b { color: #0e3489; }
+div#cardredemption div.frame div.connectedstatus span { font-weight: 700; text-decoration: underline; cursor: pointer; }
+div#cardredemption div.frame div.connectedstatus span:hover { color: #000; }
+div#cardredemption div.frame h1 { position: absolute; top: -40px; left: -20px; width: 730px; height: 100px; background: url(../images/cardredemption/sprites.png) 0px 0px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.actionarea { position: relative; width: 725px; height: 219px; margin: 0 auto; background: url(../images/cardredemption/actionarea_box.png) 0px 0px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.actionarea div.progressbar { padding: 12px 7px 10px 3px; }
+div#cardredemption div.frame div.actionarea div.progressbar span { display: inline-block; height: 30px; font-size: 14px; color: #fff; text-align: left; overflow: hidden; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step1 { width: 240px; background: url(../images/cardredemption/sprites.png) 0px -240px no-repeat; cursor: pointer; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step1.selected { background: url(../images/cardredemption/sprites.png) 0px -270px no-repeat; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step1 p { padding: 7px 0 0 5px; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step2 { width: 240px; margin-left: -10px; background: url(../images/cardredemption/sprites.png) -243px -240px no-repeat; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step2.selected { background: url(../images/cardredemption/sprites.png) -243px -270px no-repeat; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step2 p { padding: 7px 0 0 15px; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step3 { width: 230px; margin-left: -10px; background: url(../images/cardredemption/sprites.png) -486px -240px no-repeat; }
+div#cardredemption div.frame div.actionarea div.progressbar span.step3 p { padding: 7px 0 0 10px; text-align: center; }
+div#cardredemption div.frame div.actionarea div.card_front { position: absolute; top: 60px; left: 30px; width: 185px; height: 135px; background: url(../images/cardredemption/sprites.png) 0px -100px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.actionarea div.card_back { position: absolute; top: 60px; left: 160px; width: 190px; height: 130px; background: url(../images/cardredemption/sprites.png) -190px -100px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.actionarea h2 { position: absolute; top: 70px; left: 220px; width: 480px; height: 30px; font-size: 20px; font-weight: 700; color: #0e3489; }
+div#cardredemption div.frame div.actionarea h3 { position: absolute; top: 70px; left: 345px; width: 360px; height: 30px; font-size: 20px; font-weight: 700; color: #0e3489; }
+div#cardredemption div.frame div.actionarea h4 { padding: 20px 0 0 0; font-size: 20px; font-weight: 700; color: #890e0e; }
+div#cardredemption div.frame div.actionarea div.errornote { padding: 10px 0; font-size: 11px; font-weight: 700; color: #890e0e; }
+div#cardredemption div.frame div.actionarea div.tryagainbutton { width: 174px; height: 34px; margin: 10px auto; background: url(../images/cardredemption/sprites.png) no-repeat -380px -140px; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.actionarea div.tryagainbutton p { padding: 7px 0 0 0; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; text-align: center; text-shadow:0 1px 0 #fff }
+div#cardredemption div.frame div.actionarea div.tryagainbutton:hover { background: url(../images/cardredemption/sprites.png) -580px -140px no-repeat; }
+div#cardredemption div.frame div.actionarea div.facebookconnectbutton { position: absolute; top: 120px; left: 355px; width: 194px; height: 25px; background: url(../images/cardredemption/sprites.png) -790px -50px no-repeat; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.actionarea div.notes { position: absolute; top: 75px; left: 30px; width: 110px; font-size: 11px; font-weight: 700; color: #09c; }
+div#cardredemption div.frame div.actionarea div.notes p { padding-bottom: 20px; }
+div#cardredemption div.frame div.actionarea div.redeeminput { position: absolute; top: 100px; left: 390px; width: 282px; height: 34px; background: url(../images/cardredemption/sprites.png) -380px -180px no-repeat; overflow: hidden; cursor: text; }
+div#cardredemption div.frame div.actionarea div.redeeminput input { position: absolute; top: 6px; left: 6px; width: 272px; height: 24px; margin: 0; font-size: 14px; font-weight: 700; color: #09c; text-transform: uppercase; text-align: center; border: 0; background-color: #fff; }
+div#cardredemption div.frame div.actionarea div.submitbutton { position: absolute; top: 145px; left: 445px; width: 174px; height: 34px; background: url(../images/cardredemption/sprites.png) -380px -100px no-repeat; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.actionarea div.submitbutton p { padding: 7px 0 0 0; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; text-align: center; text-shadow:0 1px 0 #fff }
+div#cardredemption div.frame div.actionarea div.submitbutton:hover { background: url(../images/cardredemption/sprites.png) -580px -100px no-repeat; }
+div#cardredemption div.frame div.actionarea div.helpbutton { position: absolute; bottom: 23px; right: 25px; font-size: 11px; font-weight: 700; color: #0e3489; text-decoration: underline; cursor: pointer; }
+div#cardredemption div.frame div.actionarea div.helpbutton:hover { color: #000; }
+div#cardredemption div.frame div.successarea { position: relative; width: 725px; height: 122px; margin: 0 auto; background: url(../images/cardredemption/successarea_box.png) 0px 0px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.successarea h2 { padding: 23px 0 0 0; font-size: 24px; font-weight: 700; color: #001949; }
+div#cardredemption div.frame div.successarea h3 { padding: 5px 0 0 0; font-size: 16px; font-weight: 700; color: #fb7512; }
+div#cardredemption div.frame div.successarea div.transactionid { position: absolute; bottom: 23px; left: 20px; font-size: 11px; font-weight: 700; color: #a5bcff; }
+div#cardredemption div.frame div.successarea div.transactionid b { color: #001949; }
+div#cardredemption div.frame div.successarea div.anothercardbutton { position: absolute; bottom: 23px; right: 25px; font-size: 11px; font-weight: 700; color: #0e3489; text-decoration: underline; cursor: pointer; }
+div#cardredemption div.frame div.successarea div.anothercardbutton:hover { color: #000; }
+div#cardredemption div.frame div.anygames { position: relative; width: 620px; height: 33px; margin: 20px auto; background: url(../images/cardredemption/sprites.png) 0px -300px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.gamearea { position: relative; width: 715px; height: 168px; margin: 10px auto 0 auto; background: url(../images/cardredemption/gamearea_box.png) 0px 0px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.gamearea div.playbutton { display: none; }
+div#cardredemption div.frame div.gamearea.clickable div.playbutton { display: block; position: absolute; bottom: 0px; left: 0px; width: 705px; height: 29px; padding: 7px 0 0 10px; font-size: 20px; font-weight: bold; color: #fff; text-align: left; background: url(../images/cardredemption/playbutton.png) 0px 0px no-repeat; overflow: hidden; }
+div#cardredemption div.frame div.gamearea.clickable div.playbutton a { text-decoration: none; color: #fff; }
+div#cardredemption div.frame div.gamearea.clickable div.playbutton a:hover { color: #cf0; }
+div#cardredemption div.frame div.gamearea img { position: relative; float: right; margin: 10px 10px 0 15px; }
+div#cardredemption div.frame div.gamearea a.gamename { display: block; margin-top: 20px; padding: 10px 0 0 15px; font-size: 18px; font-weight: bold; color: #0c2d7d; text-align: left; text-decoration: none; cursor: pointer; }
+div#cardredemption div.frame div.gamearea.clickable a.gamename { padding: 2px 0 0 15px; }
+div#cardredemption div.frame div.gamearea a.gamename:hover { text-decoration: underline; }
+div#cardredemption div.frame div.gamearea p { padding: 3px 0 0 15px; font-size: 13px; color: #000; text-align: justify; line-height: 16px; } 
+div#cardredemption div.frame div.helparea { position: absolute; top: 58px; left: 18px; width: 721px; height: 650px; border: 4px solid #001949; background: #eaefff; -moz-border-radius:10px;-webkit-border-radius:10px;box-shadow:4px 4px 6px #505c7c;-webkit-box-shadow:4px 4px 6px #505c7c;-moz-box-shadow:4px 4px 6px #505c7c; }
+div#cardredemption div.frame div.helparea div.backbutton { position: absolute; top: 5px; left: 5px; font-size: 11px; font-weight: 700; color: #001949; text-decoration: underline; cursor: pointer; }
+div#cardredemption div.frame div.helparea div.backbutton:hover { color: #000; }
+div#cardredemption div.frame div.helparea div.close { position: absolute; top: -16px; right: -16px; width: 42px; height: 42px; background: url(../images/cardredemption/sprites.png) -790px 0px no-repeat; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.helparea h2 { padding: 10px 0 15px 0; font-size: 24px; font-weight: bold; text-shadow:0 1px 0 #fff }
+div#cardredemption div.frame div.helparea div.faq { position: relative; width: 699px; height: 497px; margin: 0 auto; background: url(../images/cardredemption/helparea_box.png) 0 0 no-repeat; overflow: auto; text-align: left; }
+div#cardredemption div.frame div.helparea div.faq h3 { padding: 15px 15px 0px 15px; font-size: 14px; font-weight: bold; color: #001949; }
+div#cardredemption div.frame div.helparea div.faq div.answer { padding: 0px 15px 0px 20px; font-size: 12px; color: #333; line-height: 17px; }
+div#cardredemption div.frame div.helparea h4 { padding: 10px 0; font-size: 20px; font-weight: bold; text-shadow:0 1px 0 #fff }
+div#cardredemption div.frame div.helparea span.contactbutton { display: inline-block; position: relative; width: 174px; height: 34px; margin: 10px; background: url(../images/cardredemption/sprites.png) no-repeat -380px -140px; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.helparea span.contactbutton p { padding: 7px 0 0 0; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; text-align: center; text-shadow:0 1px 0 #c3d3ff }
+div#cardredemption div.frame div.helparea span.contactbutton:hover { background: url(../images/cardredemption/sprites.png) -580px -140px no-repeat; }
+div#cardredemption div.frame div.helparea span.forumsbutton { display: inline-block; position: relative; width: 174px; height: 34px; margin: 10px; background: url(../images/cardredemption/sprites.png) no-repeat -380px -140px; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.helparea span.forumsbutton p { padding: 7px 0 0 0; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; text-align: center; text-shadow:0 1px 0 #c3d3ff }
+div#cardredemption div.frame div.helparea span.forumsbutton:hover { background: url(../images/cardredemption/sprites.png) -580px -140px no-repeat; }
+div#cardredemption div.frame div.contactarea { position: absolute; top: 135px; left: 68px; width: 621px; padding: 0 0 30px 0; border: 4px solid #001949; text-align: left; background: #a5bcff; -moz-border-radius:10px;-webkit-border-radius:10px;box-shadow:4px 4px 6px #505c7c;-webkit-box-shadow:4px 4px 6px #505c7c;-moz-box-shadow:4px 4px 6px #505c7c; }
+div#cardredemption div.frame div.contactarea div.close { position: absolute; top: -16px; right: -16px; width: 42px; height: 42px; background: url(../images/cardredemption/sprites.png) -790px 0px no-repeat; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.contactarea h2 { padding: 15px 0 0 15px; font-size: 24px; font-weight: bold; text-shadow:0 1px 0 #c4d3fd }
+div#cardredemption div.frame div.contactarea p { padding: 10px 20px 20px 15px; font-size: 13px; color: #000; text-align: justify; line-height: 16px; }
+div#cardredemption div.frame div.contactarea label { display: block; padding: 5px 0; }
+div#cardredemption div.frame div.contactarea label span.label { display: inline-block; width: 120px; vertical-align: top; padding: 10px 5px 0 10px; font-size: 14px; font-weight: bold; color: #001949; text-align: right; text-shadow:0 1px 0 #c4d3fd; }
+div#cardredemption div.frame div.contactarea label span.note { display: inline-block; vertical-align: top; padding: 10px 0 0 5px; font-size: 11px; font-weight: bold; color: #001949; }
+div#cardredemption div.frame div.contactarea label span.error { display: none; padding: 3px 0 10px 135px; font-size: 11px; font-weight: bold; color: #c00; }
+div#cardredemption div.frame div.contactarea span.contactinput { display: inline-block; position: relative; width: 282px; height: 34px; background: url(../images/cardredemption/sprites.png) -380px -180px no-repeat; overflow: hidden; cursor: text; }
+div#cardredemption div.frame div.contactarea span.contactinput input { position: absolute; top: 6px; left: 6px; width: 272px; height: 24px; margin: 0; font-size: 14px; font-weight: 700; color: #333; text-align: center; border: 0; background-color: #fff; }
+div#cardredemption div.frame div.contactarea span.contacttextarea { display: inline-block; position: relative; width: 462px; height: 134px; background: url(../images/cardredemption/sprites.png) -0px -340px no-repeat; overflow: hidden; cursor: text; }
+div#cardredemption div.frame div.contactarea span.contacttextarea textarea { position: absolute; top: 6px; left: 6px; width: 452px; height: 124px; margin: 0; font-size: 14px; font-weight: 700; color: #333; border: 0; background-color: #fff; overflow-y: auto; overflow-x: hidden; }
+div#cardredemption div.frame div.contactarea div.contactbutton { width: 174px; height: 34px; margin: 20px auto 0 auto; background: url(../images/cardredemption/sprites.png) no-repeat -380px -100px; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.contactarea div.contactbutton p { padding: 7px 0 0 0; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; text-align: center; text-shadow:0 1px 0 #ffc79d }
+div#cardredemption div.frame div.contactarea div.contactbutton:hover { background: url(../images/cardredemption/sprites.png) -580px -100px no-repeat; }
+div#cardredemption div.frame div.messagearea { position: absolute; top: 135px; left: 68px; width: 621px; padding: 0 0 30px 0; border: 4px solid #001949; text-align: left; background: #a5bcff; -moz-border-radius:10px;-webkit-border-radius:10px;box-shadow:4px 4px 6px #505c7c;-webkit-box-shadow:4px 4px 6px #505c7c;-moz-box-shadow:4px 4px 6px #505c7c; }
+div#cardredemption div.frame div.messagearea div.close { position: absolute; top: -16px; right: -16px; width: 42px; height: 42px; background: url(../images/cardredemption/sprites.png) -790px 0px no-repeat; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.messagearea h2 { padding: 15px 0 0 15px; font-size: 24px; font-weight: bold; text-shadow:0 1px 0 #c4d3fd }
+div#cardredemption div.frame div.messagearea p { padding: 10px 20px 20px 15px; font-size: 13px; color: #000; text-align: justify; line-height: 16px; }
+div#cardredemption div.frame div.messagearea div.okbutton { width: 174px; height: 34px; margin: 20px auto 0 auto; background: url(../images/cardredemption/sprites.png) no-repeat -380px -100px; overflow: hidden; cursor: pointer; }
+div#cardredemption div.frame div.messagearea div.okbutton p { padding: 7px 0 0 0; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; text-align: center; text-shadow:0 1px 0 #ffc79d }
+div#cardredemption div.frame div.messagearea div.okbutton:hover { background: url(../images/cardredemption/sprites.png) -580px -100px no-repeat; }
+div#cardredemption div.frame div.footer { position: absolute; bottom: -180px; left: 170px; width: 460px; font-size: 12px; color: #fff; text-align: justify; line-height: 18px; }
+div#cardredemption div.frame div.footer a { font-weight: 700; color: #a5bcff; text-decoration: none; }
+div#cardredemption div.frame div.footer a:hover { text-decoration: underline; }
+div#cardredemption div.legal { display: none; position: relative; margin-top: 285px; padding: 0 0 20px 0; font-size: 9px; color: #ddf7f3; }
+div#cardredemption div.aquariummode { position: absolute; left: 15px; bottom: 15px; font-size: 11px; font-weight: 700; color: #FFF; cursor: pointer; }
+div#cardredemption div.aquariummode:hover { text-decoration: underline; }
+div#cardredemption div.morefish { position: absolute; right: 15px; bottom: 15px; font-size: 11px; font-weight: 700; color: #FFF; cursor: pointer; }
+div#cardredemption div.morefish:hover { text-decoration: underline; }
+div.blackout { display: none; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; color: #fff; text-align: center; line-height: 30px; font-size: 16px; font-weight: 700; background: url(../images/cardredemption/black_80.png) 0 0 no-repeat; cursor: pointer; }
